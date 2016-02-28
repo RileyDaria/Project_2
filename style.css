@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
+
+.header #main_heading{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700; 
+	text-align: right;
+	padding-right: 0.5em;
+	font-size: 6em;
+	margin: 0 0 ;
+	text-transform: uppercase;
+	}
+	.header{
+	float: center;
+	margin: 1em 2em;
+	background-color: #e6cbb2;
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+	border-radius: 0.5em;
+	
+}
+
+img{
+	border-radius: 50%;
+	width:30%;
+	height:30%;
+	
+}
+#container1{
+	/*background-image: url('images/bubble_right.png');*/
+	width:100%;
+	height:100%;
+	background-repeat: no-repeat;
+	background-size: 70% 100%;
+	background-position: right;
+	display: inline-block;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	
+}
+ img #container1{
+	position: right;
+}
+body {
+	background-color: #d3a579;
+	margin: 0 0 15% 0;
+	background-repeat: no-repeat;
+	background-repeat: no-repeat ;
+	background-size:cover;	
+}
+#sign_up_form{
+	font-family: 'Raleway', sans-serif;
+	background-color: #e6cbb2;
+	max-width: 26em;
+	text-align: center;
+	margin: 5em auto 5em 2em;
+	
+	padding-bottom: 1em;
+	border-radius: 0.5em;
+
+	opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+label{
+	display: block;
+	padding: 0.5em;
+	text-align: left;
+	max-width: 20em;
+	text-transform: uppercase;
+
+}
+input,#button_subscribe{
+	align: left;
+	width: 25em;
+	font-size: 1em;
+	border-radius: 0.5em;
+	border: 0.05em  solid grey;
+	
+	
+}
+#button_subscribe{
+	background-color: #505050;
+	color:white;
+	padding: 1em 0;
+	margin-left: 0.5em;
+	cursor: pointer;
+}
+#header_signup{
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+	text-align:left;
+	border-bottom: 1px solid grey;
+	text-transform: uppercase;
+	color: grey;
+	padding: 0.5em;
+}
+input,input::-webkit-input-placeholder {
+
+	line-height: 2;
+}
