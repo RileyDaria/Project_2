@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<!-- All pictures are taked from pixaday.com, the are free of copy right
+-->
+<html lang="en">
+<head>
+	<title>Chirita Dog Walking Services</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no" />
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="header">
+		<h1 id= "main_heading">Chirita Dog Walking Services</h1>
+	</div>
+	
+	<div id= "flexbox">
+	
+	
+	
+	</div>
+	
+	<form id="sign_up_form">
+		<h1 id="header_signup">Sign up for updates</h1>
+		
+			<label>First Name </label>
+				<input type= "text" id="first_name" placeholder = " John">
+			<label>Last Name </label>
+				<input type= "text" id="last_name" placeholder = " Smith">
+			<label>Email Address (required) </label>
+				<input type= "text" id="email" placeholder = " your@email.com">
+			<label>Message</label>	
+			<h3 id = "button_submit" >Submit</h3>
+		
+		<div id="output"></div>
+	</form>
+
+   <script > 
+ 
+	var button_bottom = document.getElementById('button_submit');
+	button_bottom.addEventListener('click', function(){
+	/*this code was taken from http://stacko
+	verflow.com/questions/20301237/javascript-form-
+	validating-e-mail-address-and-checking-another-field-with-star
+	and modified by me*/
+	var email = document.getElementById('email').value;
+	
+	var email_filter= /^.+@.+$/;
+	
+	var result = document.getElementById('output');
+	
+	if(!email_filter.test(email)){
+		alert('You entered invalid email!\nTry again');
+			}
+		else
+		result.innerHTML = 'Thank you!';
+							
+		
+	
+	}
+);
+
+	</script>
+</body>
+</html>
