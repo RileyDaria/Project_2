@@ -1,0 +1,597 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'postcss-cli',
+1 verbose cli   'autoprefixer',
+1 verbose cli   '-g' ]
+2 info using npm@1.3.6
+3 info using node@v0.10.36
+4 verbose cache add [ 'postcss-cli', null ]
+5 verbose cache add name=undefined spec="postcss-cli" args=["postcss-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'postcss-cli',
+6 verbose parsed url   path: 'postcss-cli',
+6 verbose parsed url   href: 'postcss-cli' }
+7 verbose cache add [ 'autoprefixer', null ]
+8 verbose cache add name=undefined spec="autoprefixer" args=["autoprefixer",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'autoprefixer',
+9 verbose parsed url   path: 'autoprefixer',
+9 verbose parsed url   href: 'autoprefixer' }
+10 silly lockFile 9e74a420-postcss-cli postcss-cli
+11 verbose lock postcss-cli /home/user1/.npm/9e74a420-postcss-cli.lock
+12 silly lockFile 87dfe145-autoprefixer autoprefixer
+13 verbose lock autoprefixer /home/user1/.npm/87dfe145-autoprefixer.lock
+14 silly lockFile 9e74a420-postcss-cli postcss-cli
+15 silly lockFile 9e74a420-postcss-cli postcss-cli
+16 verbose addNamed [ 'postcss-cli', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 466cb914-postcss-cli postcss-cli@
+19 verbose lock postcss-cli@ /home/user1/.npm/466cb914-postcss-cli.lock
+20 silly lockFile 87dfe145-autoprefixer autoprefixer
+21 silly lockFile 87dfe145-autoprefixer autoprefixer
+22 verbose addNamed [ 'autoprefixer', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 5b54af58-autoprefixer autoprefixer@
+25 verbose lock autoprefixer@ /home/user1/.npm/5b54af58-autoprefixer.lock
+26 silly addNameRange { name: 'postcss-cli', range: '*', hasData: false }
+27 verbose url raw postcss-cli
+28 verbose url resolving [ 'https://registry.npmjs.org/', './postcss-cli' ]
+29 verbose url resolved https://registry.npmjs.org/postcss-cli
+30 info trying registry request attempt 1 at 23:05:56
+31 http GET https://registry.npmjs.org/postcss-cli
+32 silly addNameRange { name: 'autoprefixer', range: '*', hasData: false }
+33 verbose url raw autoprefixer
+34 verbose url resolving [ 'https://registry.npmjs.org/', './autoprefixer' ]
+35 verbose url resolved https://registry.npmjs.org/autoprefixer
+36 info trying registry request attempt 1 at 23:05:56
+37 http GET https://registry.npmjs.org/autoprefixer
+38 http 200 https://registry.npmjs.org/postcss-cli
+39 silly registry.get cb [ 200,
+39 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 silly registry.get     etag: '"212B2RM5Z24EUN7ERIU1HIP2"',
+39 silly registry.get     'content-type': 'application/json',
+39 silly registry.get     'cache-control': 'max-age=300',
+39 silly registry.get     'content-length': '34023',
+39 silly registry.get     'accept-ranges': 'bytes',
+39 silly registry.get     date: 'Tue, 01 Mar 2016 05:05:57 GMT',
+39 silly registry.get     via: '1.1 varnish',
+39 silly registry.get     age: '0',
+39 silly registry.get     connection: 'keep-alive',
+39 silly registry.get     'x-served-by': 'cache-dfw1830-DFW',
+39 silly registry.get     'x-cache': 'MISS',
+39 silly registry.get     'x-cache-hits': '0',
+39 silly registry.get     'x-timer': 'S1456808756.888213,VS0,VE122',
+39 silly registry.get     vary: 'Accept' } ]
+40 http 200 https://registry.npmjs.org/autoprefixer
+41 silly registry.get cb [ 200,
+41 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+41 silly registry.get     etag: '"8CW3C3GMVE1SCFJOOS5E1AVNY"',
+41 silly registry.get     'content-type': 'application/json',
+41 silly registry.get     'cache-control': 'max-age=300',
+41 silly registry.get     'content-length': '147452',
+41 silly registry.get     'accept-ranges': 'bytes',
+41 silly registry.get     date: 'Tue, 01 Mar 2016 05:05:56 GMT',
+41 silly registry.get     via: '1.1 varnish',
+41 silly registry.get     age: '70',
+41 silly registry.get     connection: 'keep-alive',
+41 silly registry.get     'x-served-by': 'cache-dfw1835-DFW',
+41 silly registry.get     'x-cache': 'HIT',
+41 silly registry.get     'x-cache-hits': '1',
+41 silly registry.get     'x-timer': 'S1456808756.887684,VS0,VE0',
+41 silly registry.get     vary: 'Accept' } ]
+42 silly addNameRange number 2 { name: 'postcss-cli', range: '*', hasData: true }
+43 silly addNameRange versions [ 'postcss-cli',
+43 silly addNameRange   [ '0.1.0',
+43 silly addNameRange     '0.2.0',
+43 silly addNameRange     '0.3.0',
+43 silly addNameRange     '1.0.0',
+43 silly addNameRange     '1.1.0',
+43 silly addNameRange     '1.2.0',
+43 silly addNameRange     '1.2.1',
+43 silly addNameRange     '1.3.0',
+43 silly addNameRange     '1.3.1',
+43 silly addNameRange     '1.4.0',
+43 silly addNameRange     '1.5.0',
+43 silly addNameRange     '2.0.0',
+43 silly addNameRange     '2.1.0',
+43 silly addNameRange     '2.1.1',
+43 silly addNameRange     '2.2.0',
+43 silly addNameRange     '2.3.0',
+43 silly addNameRange     '2.3.1',
+43 silly addNameRange     '2.3.2',
+43 silly addNameRange     '2.3.3',
+43 silly addNameRange     '2.4.0',
+43 silly addNameRange     '2.4.1',
+43 silly addNameRange     '2.5.0',
+43 silly addNameRange     '2.5.1' ] ]
+44 verbose addNamed [ 'postcss-cli', '2.5.1' ]
+45 verbose addNamed [ '2.5.1', '2.5.1' ]
+46 silly lockFile 434ff02b-postcss-cli-2-5-1 postcss-cli@2.5.1
+47 verbose lock postcss-cli@2.5.1 /home/user1/.npm/434ff02b-postcss-cli-2-5-1.lock
+48 silly addNameRange number 2 { name: 'autoprefixer', range: '*', hasData: true }
+49 silly addNameRange versions [ 'autoprefixer',
+49 silly addNameRange   [ '0.1.20130409',
+49 silly addNameRange     '0.2.20130413',
+49 silly addNameRange     '0.3.20130423',
+49 silly addNameRange     '0.3.20130424',
+49 silly addNameRange     '0.3.20130427',
+49 silly addNameRange     '0.3.20130502',
+49 silly addNameRange     '0.4.20130507',
+49 silly addNameRange     '0.4.20130515',
+49 silly addNameRange     '0.4.20130521',
+49 silly addNameRange     '0.4.20130524',
+49 silly addNameRange     '0.4.20130528',
+49 silly addNameRange     '0.4.20130530',
+49 silly addNameRange     '0.4.20130603',
+49 silly addNameRange     '0.5.20130615',
+49 silly addNameRange     '0.5.20130616',
+49 silly addNameRange     '0.5.20130617',
+49 silly addNameRange     '0.5.20130625',
+49 silly addNameRange     '0.5.20130626',
+49 silly addNameRange     '0.5.20130629',
+49 silly addNameRange     '0.6.20130716',
+49 silly addNameRange     '0.6.20130721',
+49 silly addNameRange     '0.6.20130728',
+49 silly addNameRange     '0.6.20130729',
+49 silly addNameRange     '0.6.20130730',
+49 silly addNameRange     '0.6.20130731',
+49 silly addNameRange     '0.7.20130805',
+49 silly addNameRange     '0.7.20130806',
+49 silly addNameRange     '0.7.20130807',
+49 silly addNameRange     '0.7.20130808',
+49 silly addNameRange     '0.7.20130810',
+49 silly addNameRange     '0.7.20130824',
+49 silly addNameRange     '0.8.20130902',
+49 silly addNameRange     '0.8.20130903',
+49 silly addNameRange     '0.8.20130906',
+49 silly addNameRange     '0.8.20130911',
+49 silly addNameRange     '0.8.20130919',
+49 silly addNameRange     '0.8.20130923',
+49 silly addNameRange     '0.8.20131001',
+49 silly addNameRange     '0.8.20131006',
+49 silly addNameRange     '0.8.20131007',
+49 silly addNameRange     '0.8.20131009',
+49 silly addNameRange     '0.8.20131015',
+49 silly addNameRange     '0.8.20131017',
+49 silly addNameRange     '0.8.20131020',
+49 silly addNameRange     '0.8.20131029',
+49 silly addNameRange     '0.8.20131104',
+49 silly addNameRange     '0.8.20131209',
+49 silly addNameRange     '0.8.20131213',
+49 silly addNameRange     '1.0.20131222',
+49 silly addNameRange     '1.0.20140103',
+49 silly addNameRange     '1.0.20140109',
+49 silly addNameRange     '1.0.20140110',
+49 silly addNameRange     '1.0.20140117',
+49 silly addNameRange     '1.0.20140130',
+49 silly addNameRange     '1.0.20140203',
+49 silly addNameRange     '1.0.20140213',
+49 silly addNameRange     '1.1.20140218',
+49 silly addNameRange     '1.1.20140222',
+49 silly addNameRange     '1.1.20140226',
+49 silly addNameRange     '1.1.20140302',
+49 silly addNameRange     '1.1.20140319',
+49 silly addNameRange     '1.1.20140327',
+49 silly addNameRange     '1.1.20140403',
+49 silly addNameRange     '1.1.20140410',
+49 silly addNameRange     '1.1.20140429',
+49 silly addNameRange     '1.1.20140430',
+49 silly addNameRange     '1.1.20140510',
+49 silly addNameRange     '1.1.20140512',
+49 silly addNameRange     '1.1.20140521',
+49 silly addNameRange     '1.1.20140523',
+49 silly addNameRange     '1.1.20140605',
+49 silly addNameRange     '1.2.0',
+49 silly addNameRange     '1.3.0',
+49 silly addNameRange     '1.3.1',
+49 silly addNameRange     '2.0.0',
+49 silly addNameRange     '2.0.1',
+49 silly addNameRange     '2.0.2',
+49 silly addNameRange     '2.1.0',
+49 silly addNameRange     '2.1.1',
+49 silly addNameRange     '2.2.0',
+49 silly addNameRange     '3.0.0',
+49 silly addNameRange     '3.1.0',
+49 silly addNameRange     '4.0.0',
+49 silly addNameRange     '5.0.0',
+49 silly addNameRange     '5.1.0',
+49 silly addNameRange     '5.1.1',
+49 silly addNameRange     '5.2.0',
+49 silly addNameRange     '6.0.0',
+49 silly addNameRange     '6.0.1',
+49 silly addNameRange     '6.0.2',
+49 silly addNameRange     '6.0.3',
+49 silly addNameRange     '6.1.0',
+49 silly addNameRange     '6.1.1',
+49 silly addNameRange     '6.1.2',
+49 silly addNameRange     '6.2.0',
+49 silly addNameRange     '6.2.1',
+49 silly addNameRange     '6.2.2',
+49 silly addNameRange     '6.2.3',
+49 silly addNameRange     '6.3.0',
+49 silly addNameRange     '6.3.1',
+49 silly addNameRange     '6.3.2',
+49 silly addNameRange     '6.3.3' ] ]
+50 verbose addNamed [ 'autoprefixer', '6.3.3' ]
+51 verbose addNamed [ '6.3.3', '6.3.3' ]
+52 silly lockFile 21e2d178-autoprefixer-6-3-3 autoprefixer@6.3.3
+53 verbose lock autoprefixer@6.3.3 /home/user1/.npm/21e2d178-autoprefixer-6-3-3.lock
+54 silly lockFile 618332c4-ostcss-cli-postcss-cli-2-5-1-tgz https://registry.npmjs.org/postcss-cli/-/postcss-cli-2.5.1.tgz
+55 verbose lock https://registry.npmjs.org/postcss-cli/-/postcss-cli-2.5.1.tgz /home/user1/.npm/618332c4-ostcss-cli-postcss-cli-2-5-1-tgz.lock
+56 silly lockFile 8e821a2f-oprefixer-autoprefixer-6-3-3-tgz https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.3.3.tgz
+57 verbose lock https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.3.3.tgz /home/user1/.npm/8e821a2f-oprefixer-autoprefixer-6-3-3-tgz.lock
+58 verbose addRemoteTarball [ 'https://registry.npmjs.org/postcss-cli/-/postcss-cli-2.5.1.tgz',
+58 verbose addRemoteTarball   'bb01c54521ba7e0d654ed4d183c53b1cae9b5f7d' ]
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.3.3.tgz',
+59 verbose addRemoteTarball   '38bcd301504e7b40a9feeb392709067787c521a5' ]
+60 info retry fetch attempt 1 at 23:05:57
+61 verbose fetch to= /home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/tmp.tgz
+62 http GET https://registry.npmjs.org/postcss-cli/-/postcss-cli-2.5.1.tgz
+63 info retry fetch attempt 1 at 23:05:57
+64 verbose fetch to= /home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/tmp.tgz
+65 http GET https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.3.3.tgz
+66 http 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.3.3.tgz
+67 verbose tar unpack /home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/tmp.tgz
+68 silly lockFile 57cb2196-57208-0-6350531587377191-package tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/package
+69 verbose lock tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/package /home/user1/.npm/57cb2196-57208-0-6350531587377191-package.lock
+70 silly lockFile 7c4d1e7f-57208-0-6350531587377191-tmp-tgz tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/tmp.tgz
+71 verbose lock tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/tmp.tgz /home/user1/.npm/7c4d1e7f-57208-0-6350531587377191-tmp-tgz.lock
+72 silly gunzTarPerm modes [ '755', '644' ]
+73 silly gunzTarPerm extractEntry package.json
+74 silly gunzTarPerm extractEntry README.md
+75 silly gunzTarPerm extractEntry LICENSE
+76 silly gunzTarPerm extractEntry CHANGELOG.md
+77 silly gunzTarPerm extractEntry data/prefixes.js
+78 silly gunzTarPerm extractEntry lib/at-rule.js
+79 silly gunzTarPerm extractEntry lib/utils.js
+80 silly gunzTarPerm extractEntry lib/info.js
+81 silly gunzTarPerm extractEntry lib/old-selector.js
+82 silly gunzTarPerm extractEntry lib/declaration.js
+83 silly gunzTarPerm extractEntry lib/autoprefixer.js
+84 silly gunzTarPerm extractEntry lib/prefixes.js
+85 silly gunzTarPerm extractEntry lib/processor.js
+86 silly gunzTarPerm extractEntry lib/resolution.js
+87 silly gunzTarPerm extractEntry lib/selector.js
+88 silly gunzTarPerm extractEntry lib/browsers.js
+89 silly gunzTarPerm extractEntry lib/supports.js
+90 silly gunzTarPerm extractEntry lib/brackets.js
+91 silly gunzTarPerm extractEntry lib/transition.js
+92 silly gunzTarPerm extractEntry lib/old-value.js
+93 silly gunzTarPerm extractEntry lib/value.js
+94 silly gunzTarPerm extractEntry lib/prefixer.js
+95 silly gunzTarPerm extractEntry lib/hacks/align-content.js
+96 silly gunzTarPerm extractEntry lib/hacks/flex-grow.js
+97 silly gunzTarPerm extractEntry lib/hacks/flex-shrink.js
+98 silly gunzTarPerm extractEntry lib/hacks/flex-spec.js
+99 silly gunzTarPerm extractEntry lib/hacks/flex-values.js
+100 silly gunzTarPerm extractEntry lib/hacks/flex-flow.js
+101 silly gunzTarPerm extractEntry lib/hacks/flex.js
+102 silly gunzTarPerm extractEntry lib/hacks/fullscreen.js
+103 silly gunzTarPerm extractEntry lib/hacks/gradient.js
+104 silly gunzTarPerm extractEntry lib/hacks/grid-end.js
+105 silly gunzTarPerm extractEntry lib/hacks/grid-row-align.js
+106 silly gunzTarPerm extractEntry lib/hacks/flex-direction.js
+107 silly gunzTarPerm extractEntry lib/hacks/grid-start.js
+108 silly gunzTarPerm extractEntry lib/hacks/flex-basis.js
+109 silly gunzTarPerm extractEntry lib/hacks/grid-template.js
+110 silly gunzTarPerm extractEntry lib/hacks/filter.js
+111 silly gunzTarPerm extractEntry lib/hacks/image-rendering.js
+112 silly gunzTarPerm extractEntry lib/hacks/filter-value.js
+113 silly gunzTarPerm extractEntry lib/hacks/image-set.js
+114 silly gunzTarPerm extractEntry lib/hacks/fill.js
+115 silly gunzTarPerm extractEntry lib/hacks/inline-logical.js
+116 silly gunzTarPerm extractEntry lib/hacks/display-flex.js
+117 silly gunzTarPerm extractEntry lib/hacks/justify-content.js
+118 silly gunzTarPerm extractEntry lib/hacks/cross-fade.js
+119 silly gunzTarPerm extractEntry lib/hacks/justify-items.js
+120 silly gunzTarPerm extractEntry lib/hacks/break-props.js
+121 silly gunzTarPerm extractEntry lib/hacks/mask-border.js
+122 silly gunzTarPerm extractEntry lib/hacks/border-radius.js
+123 silly gunzTarPerm extractEntry lib/hacks/order.js
+124 silly gunzTarPerm extractEntry lib/hacks/border-image.js
+125 silly gunzTarPerm extractEntry lib/hacks/pixelated.js
+126 silly gunzTarPerm extractEntry lib/hacks/block-logical.js
+127 silly gunzTarPerm extractEntry lib/hacks/placeholder.js
+128 silly gunzTarPerm extractEntry lib/hacks/background-size.js
+129 silly gunzTarPerm extractEntry lib/hacks/text-emphasis-position.js
+130 silly gunzTarPerm extractEntry lib/hacks/align-self.js
+131 http 200 https://registry.npmjs.org/postcss-cli/-/postcss-cli-2.5.1.tgz
+132 silly gunzTarPerm extractEntry lib/hacks/transform-decl.js
+133 silly gunzTarPerm extractEntry lib/hacks/align-items.js
+134 verbose tar unpack /home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/tmp.tgz
+135 silly lockFile 2a5ec4f2-57208-0-9599014914128929-package tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/package
+136 verbose lock tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/package /home/user1/.npm/2a5ec4f2-57208-0-9599014914128929-package.lock
+137 silly lockFile 17b67571-57208-0-9599014914128929-tmp-tgz tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/tmp.tgz
+138 verbose lock tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/tmp.tgz /home/user1/.npm/17b67571-57208-0-9599014914128929-tmp-tgz.lock
+139 silly gunzTarPerm modes [ '755', '644' ]
+140 silly gunzTarPerm extractEntry lib/hacks/writing-mode.js
+141 silly gunzTarPerm extractEntry lib/hacks/flex-wrap.js
+142 silly gunzTarPerm extractEntry package.json
+143 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+144 silly gunzTarPerm extractEntry .npmignore
+145 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+146 silly gunzTarPerm extractEntry index.js
+147 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+148 silly gunzTarPerm extractEntry Readme.md
+149 silly gunzTarPerm modified mode [ 'Readme.md', 436, 420 ]
+150 silly gunzTarPerm extractEntry History.md
+151 silly gunzTarPerm modified mode [ 'History.md', 384, 420 ]
+152 silly gunzTarPerm extractEntry bin/postcss
+153 silly gunzTarPerm modified mode [ 'bin/postcss', 509, 493 ]
+154 silly lockFile 2a5ec4f2-57208-0-9599014914128929-package tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/package
+155 silly lockFile 2a5ec4f2-57208-0-9599014914128929-package tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/package
+156 silly lockFile 17b67571-57208-0-9599014914128929-tmp-tgz tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/tmp.tgz
+157 silly lockFile 17b67571-57208-0-9599014914128929-tmp-tgz tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/tmp.tgz
+158 verbose tar pack [ '/home/user1/.npm/postcss-cli/2.5.1/package.tgz',
+158 verbose tar pack   '/home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/package' ]
+159 verbose tarball /home/user1/.npm/postcss-cli/2.5.1/package.tgz
+160 verbose folder /home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/package
+161 silly lockFile 2a5ec4f2-57208-0-9599014914128929-package tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/package
+162 verbose lock tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/package /home/user1/.npm/2a5ec4f2-57208-0-9599014914128929-package.lock
+163 silly lockFile e66d1c01-pm-postcss-cli-2-5-1-package-tgz tar:///home/user1/.npm/postcss-cli/2.5.1/package.tgz
+164 verbose lock tar:///home/user1/.npm/postcss-cli/2.5.1/package.tgz /home/user1/.npm/e66d1c01-pm-postcss-cli-2-5-1-package-tgz.lock
+165 silly lockFile 2a5ec4f2-57208-0-9599014914128929-package tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/package
+166 silly lockFile 2a5ec4f2-57208-0-9599014914128929-package tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.9599014914128929/package
+167 silly lockFile e66d1c01-pm-postcss-cli-2-5-1-package-tgz tar:///home/user1/.npm/postcss-cli/2.5.1/package.tgz
+168 silly lockFile e66d1c01-pm-postcss-cli-2-5-1-package-tgz tar:///home/user1/.npm/postcss-cli/2.5.1/package.tgz
+169 silly lockFile 45f27ade-r1-npm-postcss-cli-2-5-1-package /home/user1/.npm/postcss-cli/2.5.1/package
+170 verbose lock /home/user1/.npm/postcss-cli/2.5.1/package /home/user1/.npm/45f27ade-r1-npm-postcss-cli-2-5-1-package.lock
+171 silly lockFile 45f27ade-r1-npm-postcss-cli-2-5-1-package /home/user1/.npm/postcss-cli/2.5.1/package
+172 silly lockFile 45f27ade-r1-npm-postcss-cli-2-5-1-package /home/user1/.npm/postcss-cli/2.5.1/package
+173 verbose tar unpack /home/user1/.npm/postcss-cli/2.5.1/package.tgz
+174 silly lockFile b68a60c1-r1-npm-postcss-cli-2-5-1-package tar:///home/user1/.npm/postcss-cli/2.5.1/package
+175 verbose lock tar:///home/user1/.npm/postcss-cli/2.5.1/package /home/user1/.npm/b68a60c1-r1-npm-postcss-cli-2-5-1-package.lock
+176 silly lockFile e66d1c01-pm-postcss-cli-2-5-1-package-tgz tar:///home/user1/.npm/postcss-cli/2.5.1/package.tgz
+177 verbose lock tar:///home/user1/.npm/postcss-cli/2.5.1/package.tgz /home/user1/.npm/e66d1c01-pm-postcss-cli-2-5-1-package-tgz.lock
+178 silly gunzTarPerm modes [ '755', '644' ]
+179 silly gunzTarPerm extractEntry package.json
+180 silly gunzTarPerm extractEntry .npmignore
+181 silly gunzTarPerm extractEntry index.js
+182 silly gunzTarPerm extractEntry Readme.md
+183 silly gunzTarPerm extractEntry bin/postcss
+184 silly lockFile b68a60c1-r1-npm-postcss-cli-2-5-1-package tar:///home/user1/.npm/postcss-cli/2.5.1/package
+185 silly lockFile b68a60c1-r1-npm-postcss-cli-2-5-1-package tar:///home/user1/.npm/postcss-cli/2.5.1/package
+186 silly lockFile e66d1c01-pm-postcss-cli-2-5-1-package-tgz tar:///home/user1/.npm/postcss-cli/2.5.1/package.tgz
+187 silly lockFile e66d1c01-pm-postcss-cli-2-5-1-package-tgz tar:///home/user1/.npm/postcss-cli/2.5.1/package.tgz
+188 verbose chmod /home/user1/.npm/postcss-cli/2.5.1/package.tgz 644
+189 verbose chown /home/user1/.npm/postcss-cli/2.5.1/package.tgz [ 1000, 1000 ]
+190 silly lockFile 618332c4-ostcss-cli-postcss-cli-2-5-1-tgz https://registry.npmjs.org/postcss-cli/-/postcss-cli-2.5.1.tgz
+191 silly lockFile 618332c4-ostcss-cli-postcss-cli-2-5-1-tgz https://registry.npmjs.org/postcss-cli/-/postcss-cli-2.5.1.tgz
+192 silly lockFile 434ff02b-postcss-cli-2-5-1 postcss-cli@2.5.1
+193 silly lockFile 434ff02b-postcss-cli-2-5-1 postcss-cli@2.5.1
+194 silly lockFile 466cb914-postcss-cli postcss-cli@
+195 silly lockFile 466cb914-postcss-cli postcss-cli@
+196 silly lockFile 57cb2196-57208-0-6350531587377191-package tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/package
+197 silly lockFile 57cb2196-57208-0-6350531587377191-package tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/package
+198 silly lockFile 7c4d1e7f-57208-0-6350531587377191-tmp-tgz tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/tmp.tgz
+199 silly lockFile 7c4d1e7f-57208-0-6350531587377191-tmp-tgz tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/tmp.tgz
+200 verbose tar pack [ '/home/user1/.npm/autoprefixer/6.3.3/package.tgz',
+200 verbose tar pack   '/home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/package' ]
+201 verbose tarball /home/user1/.npm/autoprefixer/6.3.3/package.tgz
+202 verbose folder /home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/package
+203 silly lockFile 57cb2196-57208-0-6350531587377191-package tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/package
+204 verbose lock tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/package /home/user1/.npm/57cb2196-57208-0-6350531587377191-package.lock
+205 silly lockFile f63c859b-m-autoprefixer-6-3-3-package-tgz tar:///home/user1/.npm/autoprefixer/6.3.3/package.tgz
+206 verbose lock tar:///home/user1/.npm/autoprefixer/6.3.3/package.tgz /home/user1/.npm/f63c859b-m-autoprefixer-6-3-3-package-tgz.lock
+207 silly lockFile 57cb2196-57208-0-6350531587377191-package tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/package
+208 silly lockFile 57cb2196-57208-0-6350531587377191-package tar:///home/user1/tmp/npm-2563-YDtoMhSR/1456808757208-0.6350531587377191/package
+209 silly lockFile f63c859b-m-autoprefixer-6-3-3-package-tgz tar:///home/user1/.npm/autoprefixer/6.3.3/package.tgz
+210 silly lockFile f63c859b-m-autoprefixer-6-3-3-package-tgz tar:///home/user1/.npm/autoprefixer/6.3.3/package.tgz
+211 silly lockFile c75f64ce-1-npm-autoprefixer-6-3-3-package /home/user1/.npm/autoprefixer/6.3.3/package
+212 verbose lock /home/user1/.npm/autoprefixer/6.3.3/package /home/user1/.npm/c75f64ce-1-npm-autoprefixer-6-3-3-package.lock
+213 silly lockFile c75f64ce-1-npm-autoprefixer-6-3-3-package /home/user1/.npm/autoprefixer/6.3.3/package
+214 silly lockFile c75f64ce-1-npm-autoprefixer-6-3-3-package /home/user1/.npm/autoprefixer/6.3.3/package
+215 verbose tar unpack /home/user1/.npm/autoprefixer/6.3.3/package.tgz
+216 silly lockFile f52b00f4-1-npm-autoprefixer-6-3-3-package tar:///home/user1/.npm/autoprefixer/6.3.3/package
+217 verbose lock tar:///home/user1/.npm/autoprefixer/6.3.3/package /home/user1/.npm/f52b00f4-1-npm-autoprefixer-6-3-3-package.lock
+218 silly lockFile f63c859b-m-autoprefixer-6-3-3-package-tgz tar:///home/user1/.npm/autoprefixer/6.3.3/package.tgz
+219 verbose lock tar:///home/user1/.npm/autoprefixer/6.3.3/package.tgz /home/user1/.npm/f63c859b-m-autoprefixer-6-3-3-package-tgz.lock
+220 silly gunzTarPerm modes [ '755', '644' ]
+221 silly gunzTarPerm extractEntry package.json
+222 silly gunzTarPerm extractEntry README.md
+223 silly gunzTarPerm extractEntry LICENSE
+224 silly gunzTarPerm extractEntry CHANGELOG.md
+225 silly gunzTarPerm extractEntry data/prefixes.js
+226 silly gunzTarPerm extractEntry lib/at-rule.js
+227 silly gunzTarPerm extractEntry lib/utils.js
+228 silly gunzTarPerm extractEntry lib/info.js
+229 silly gunzTarPerm extractEntry lib/old-selector.js
+230 silly gunzTarPerm extractEntry lib/declaration.js
+231 silly gunzTarPerm extractEntry lib/autoprefixer.js
+232 silly gunzTarPerm extractEntry lib/prefixes.js
+233 silly gunzTarPerm extractEntry lib/processor.js
+234 silly gunzTarPerm extractEntry lib/resolution.js
+235 silly gunzTarPerm extractEntry lib/selector.js
+236 silly gunzTarPerm extractEntry lib/browsers.js
+237 silly gunzTarPerm extractEntry lib/supports.js
+238 silly gunzTarPerm extractEntry lib/brackets.js
+239 silly gunzTarPerm extractEntry lib/transition.js
+240 silly gunzTarPerm extractEntry lib/old-value.js
+241 silly gunzTarPerm extractEntry lib/value.js
+242 silly gunzTarPerm extractEntry lib/prefixer.js
+243 silly gunzTarPerm extractEntry lib/hacks/align-content.js
+244 silly gunzTarPerm extractEntry lib/hacks/flex-grow.js
+245 silly gunzTarPerm extractEntry lib/hacks/flex-shrink.js
+246 silly gunzTarPerm extractEntry lib/hacks/flex-spec.js
+247 silly gunzTarPerm extractEntry lib/hacks/flex-values.js
+248 silly gunzTarPerm extractEntry lib/hacks/flex-flow.js
+249 silly gunzTarPerm extractEntry lib/hacks/flex.js
+250 silly gunzTarPerm extractEntry lib/hacks/fullscreen.js
+251 silly gunzTarPerm extractEntry lib/hacks/gradient.js
+252 silly gunzTarPerm extractEntry lib/hacks/grid-end.js
+253 silly gunzTarPerm extractEntry lib/hacks/grid-row-align.js
+254 silly gunzTarPerm extractEntry lib/hacks/flex-direction.js
+255 silly gunzTarPerm extractEntry lib/hacks/grid-start.js
+256 silly gunzTarPerm extractEntry lib/hacks/flex-basis.js
+257 silly gunzTarPerm extractEntry lib/hacks/grid-template.js
+258 silly gunzTarPerm extractEntry lib/hacks/filter.js
+259 silly gunzTarPerm extractEntry lib/hacks/image-rendering.js
+260 silly gunzTarPerm extractEntry lib/hacks/filter-value.js
+261 silly gunzTarPerm extractEntry lib/hacks/image-set.js
+262 silly gunzTarPerm extractEntry lib/hacks/fill.js
+263 silly gunzTarPerm extractEntry lib/hacks/inline-logical.js
+264 silly gunzTarPerm extractEntry lib/hacks/display-flex.js
+265 silly gunzTarPerm extractEntry lib/hacks/justify-content.js
+266 silly gunzTarPerm extractEntry lib/hacks/cross-fade.js
+267 silly gunzTarPerm extractEntry lib/hacks/justify-items.js
+268 silly gunzTarPerm extractEntry lib/hacks/break-props.js
+269 silly gunzTarPerm extractEntry lib/hacks/mask-border.js
+270 silly gunzTarPerm extractEntry lib/hacks/border-radius.js
+271 silly gunzTarPerm extractEntry lib/hacks/order.js
+272 silly gunzTarPerm extractEntry lib/hacks/border-image.js
+273 silly gunzTarPerm extractEntry lib/hacks/pixelated.js
+274 silly gunzTarPerm extractEntry lib/hacks/block-logical.js
+275 silly gunzTarPerm extractEntry lib/hacks/placeholder.js
+276 silly gunzTarPerm extractEntry lib/hacks/background-size.js
+277 silly gunzTarPerm extractEntry lib/hacks/text-emphasis-position.js
+278 silly gunzTarPerm extractEntry lib/hacks/align-self.js
+279 silly gunzTarPerm extractEntry lib/hacks/transform-decl.js
+280 silly gunzTarPerm extractEntry lib/hacks/align-items.js
+281 silly gunzTarPerm extractEntry lib/hacks/writing-mode.js
+282 silly gunzTarPerm extractEntry lib/hacks/flex-wrap.js
+283 silly lockFile f52b00f4-1-npm-autoprefixer-6-3-3-package tar:///home/user1/.npm/autoprefixer/6.3.3/package
+284 silly lockFile f52b00f4-1-npm-autoprefixer-6-3-3-package tar:///home/user1/.npm/autoprefixer/6.3.3/package
+285 silly lockFile f63c859b-m-autoprefixer-6-3-3-package-tgz tar:///home/user1/.npm/autoprefixer/6.3.3/package.tgz
+286 silly lockFile f63c859b-m-autoprefixer-6-3-3-package-tgz tar:///home/user1/.npm/autoprefixer/6.3.3/package.tgz
+287 verbose chmod /home/user1/.npm/autoprefixer/6.3.3/package.tgz 644
+288 verbose chown /home/user1/.npm/autoprefixer/6.3.3/package.tgz [ 1000, 1000 ]
+289 silly lockFile 8e821a2f-oprefixer-autoprefixer-6-3-3-tgz https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.3.3.tgz
+290 silly lockFile 8e821a2f-oprefixer-autoprefixer-6-3-3-tgz https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.3.3.tgz
+291 silly lockFile 21e2d178-autoprefixer-6-3-3 autoprefixer@6.3.3
+292 silly lockFile 21e2d178-autoprefixer-6-3-3 autoprefixer@6.3.3
+293 silly lockFile 5b54af58-autoprefixer autoprefixer@
+294 silly lockFile 5b54af58-autoprefixer autoprefixer@
+295 silly resolved [ { name: 'postcss-cli',
+295 silly resolved     version: '2.5.1',
+295 silly resolved     description: 'CLI for postcss',
+295 silly resolved     main: 'index.js',
+295 silly resolved     bin: { postcss: './bin/postcss' },
+295 silly resolved     scripts: { test: 'make' },
+295 silly resolved     repository:
+295 silly resolved      { type: 'git',
+295 silly resolved        url: 'https://github.com/postcss/postcss-cli.git' },
+295 silly resolved     keywords: [ 'postcss', 'postcss-runner', 'cli' ],
+295 silly resolved     author: { name: 'Damian Krzeminski', email: 'pirxpilot@code42day.com' },
+295 silly resolved     license: 'MIT',
+295 silly resolved     dependencies:
+295 silly resolved      { globby: '^3.0.1',
+295 silly resolved        'neo-async': '^1.0.0',
+295 silly resolved        postcss: '^5.0.0',
+295 silly resolved        'read-file-stdin': '^0.2.0',
+295 silly resolved        resolve: '^1.1.6',
+295 silly resolved        yargs: '^3.8.0',
+295 silly resolved        chokidar: '^1.0.3' },
+295 silly resolved     optionalDependencies: { chokidar: '^1.0.3' },
+295 silly resolved     devDependencies:
+295 silly resolved      { jshint: '^2.6.3',
+295 silly resolved        'postcss-import': '^7.1.0',
+295 silly resolved        'postcss-url': '^4.0.0' },
+295 silly resolved     readme: '[![Build Status](https://img.shields.io/travis/postcss/postcss-cli.svg)](http://travis-ci.org/postcss/postcss-cli)\n[![Dependency Status](https://img.shields.io/gemnasium/postcss/postcss-cli.svg)](https://gemnasium.com/postcss/postcss-cli)\n[![NPM version](https://img.shields.io/npm/v/postcss-cli.svg)](http://badge.fury.io/js/postcss-cli)\n\n# postcss-cli\n\nTraditional CLI for [postcss]\n\n## Installation\n\n`npm install postcss-cli`\n\n| postcss-cli version | postcss version |\n| ---- | ---- |\n| 1.x | 4.x |\n| 2.x | 5.x |\n\n## Usage\n\n    postcss [options] [-o output-file|-d output-directory|-r] [input-file]\n\n#### `--output|-o`\n\nOutput file name. If no output file is specified, `postcss` will write to `stdout`, however plugins\nthat rely on output file location will not work properly.\n\nSimilarly, if no input file is specified, `postcss` will read from `stdin`.\nPlugins that rely on input file location will not work properly.\n\n#### `--dir|-d`\n\nOutput files location. Either `--output`, `--dir` or `--replace` option, but\nnot all of them, need to be specified. `--dir` or `--replace` needs to be used\nif multiple input file is provided.\n\n#### `--replace|-r`\n\nReplace input file(s) with generated output. Either `--output`, `--dir` or\n`--replace` option, but not all of them, need to be specified. `--replace` or\n`--dir` needs to be used if multiple input file is provided.\n\n#### `--use|-u`\n\nPlugin to be used. Multiple plugins can be specified. At least one plugin needs to be specified either with `--use` option or in the config file.\n\n#### `--map|-m`\n\nActivate source map generation. By default inline maps are generated. To generate source maps\nin a separate _.map_ file use `--map file` or `--no-map.inline`.\n\nYou can use [advances source map options][source-map-options] - some examples:\n\n- `--no-map` - do not generated source maps - even if previous maps exist\n- `--map.annotation <path>` - specify alternaive path to be used in source map annotation appended to CSS\n- `--no-map.annotation` - supress adding annotation to CSS\n- `--no-map.sourcesContent` - remove origin CSS from maps\n\n#### `--local-plugins`\n\nLook up plugins starting from `node_modules` located in the current working\ndirectory. Without this option, postcss-cli will look for the plugins in the\n`node_modules` in which it is installed - specifically if it is installed\nglobally it will only look for plugins that are globally installed.\n\n#### `--watch|-w`\n\nObserve file system changes and recompile as source files change.\n\nWhen inlining CSS imports, add an update handler to your JavaScript\nconfiguration file to ensure referenced modules are taken into account:\n\n```js\n{\n  "postcss-import": {\n    onImport: function(sources) {\n      global.watchCSS(sources, this.from);\n    }\n  }\n}\n```\n\nFor [postcss-import], this handler is added automatically.\n\n#### `--config|-c`\n\nJSON file with plugin configuration. Plugin names should be the keys.\n\n````json\n{\n    "autoprefixer": {\n        "browsers": "> 5%"\n    },\n    "postcss-cachify": {\n        "baseUrl": "/res"\n    }\n}\n````\n\nJavaScript configuration can be used if functions are allowed as plugins parameters:\n\n````js\nmodule.exports = {\n  "postcss-url": {\n    url: function(url) { return "http://example.com/" + url; }\n  },\n  autoprefixer: {\n    browsers: "> 5%"\n  }\n};\n````\nAlternatively configuration options can be passed as `--plugin.option` parameters.\n\nNote that command-line options can also be specified in the config file:\n\n````json\n{\n    "use": ["autoprefixer", "postcss-cachify"],\n    "input": "screen.css",\n    "output": "bundle.css",\n    "local-plugins": true,\n    "autoprefixer": {\n        "browsers": "> 5%"\n    },\n    "postcss-cachify": {\n        "baseUrl": "/res"\n    }\n}\n````\n\n#### `--syntax|-s`\n\nOptional module to use as a [custom PostCSS syntax](https://github.com/postcss/postcss#custom-syntaxes).\n\n#### `--parser|-p`\n\nOptional module to use as a [custom PostCSS input parser](https://github.com/postcss/postcss#custom-syntaxes).\n\n#### `--stringifier|-t`\n\nOptional module to use as a [custom PostCSS output stringifier](https://github.com/postcss/postcss#custom-syntaxes).\n\n#### `--help|-h`\n\nShow help\n\n### Examples\n\nUse autoprefixer as a postcss plugin pass parameters from a json file\n\n    postcss --use autoprefixer -c options.json -o screen.css screen.css\n\nUse more than one plugin and pass config parameters\n\n    postcss --use autoprefixer --autoprefixer.browsers "> 5%" \\\n        --use postcss-cachify --postcss-cachify.baseUrl /res \\\n        -o screen.css screen.css\n\nUse multiple plugins and multiple input files\n\n    postcss -u postcss-cachify -u autoprefixer -d build *.css\n\n## License\n\nMIT\n\n[postcss]: https://github.com/postcss/postcss\n[postcss-import]: https://github.com/postcss/postcss-import\n[source-map-options]: https://github.com/postcss/postcss/blob/master/docs/source-maps.md\n',
+295 silly resolved     readmeFilename: 'Readme.md',
+295 silly resolved     bugs: { url: 'https://github.com/postcss/postcss-cli/issues' },
+295 silly resolved     _id: 'postcss-cli@2.5.1',
+295 silly resolved     dist: { shasum: 'fabd8852003bbf541851efb660dbfd9586a67afd' },
+295 silly resolved     _from: 'postcss-cli@',
+295 silly resolved     _resolved: 'https://registry.npmjs.org/postcss-cli/-/postcss-cli-2.5.1.tgz' },
+295 silly resolved   { name: 'autoprefixer',
+295 silly resolved     version: '6.3.3',
+295 silly resolved     description: 'Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website',
+295 silly resolved     keywords: [ 'autoprefixer', 'css', 'prefix', 'postcss', 'postcss-plugin' ],
+295 silly resolved     author: { name: 'Andrey Sitnik', email: 'andrey@sitnik.ru' },
+295 silly resolved     license: 'MIT',
+295 silly resolved     repository: { type: 'git', url: 'postcss/autoprefixer' },
+295 silly resolved     dependencies:
+295 silly resolved      { 'postcss-value-parser': '^3.2.3',
+295 silly resolved        'normalize-range': '^0.1.2',
+295 silly resolved        num2fraction: '^1.2.2',
+295 silly resolved        browserslist: '~1.1.3',
+295 silly resolved        'caniuse-db': '^1.0.30000409',
+295 silly resolved        postcss: '^5.0.15' },
+295 silly resolved     devDependencies:
+295 silly resolved      { 'eslint-config-postcss': '2.0.0',
+295 silly resolved        'vinyl-source-stream': '1.1.0',
+295 silly resolved        'gulp-json-editor': '2.2.1',
+295 silly resolved        'gulp-replace': '0.5.4',
+295 silly resolved        'gulp-eslint': '2.0.0',
+295 silly resolved        'gulp-coffee': '2.3.1',
+295 silly resolved        'gulp-mocha': '2.2.0',
+295 silly resolved        browserify: '13.0.0',
+295 silly resolved        'fs-extra': '0.26.5',
+295 silly resolved        should: '8.2.2',
+295 silly resolved        mocha: '2.4.5',
+295 silly resolved        gulp: '3.9.1',
+295 silly resolved        'coffee-script': '1.10.0' },
+295 silly resolved     scripts: { test: 'gulp' },
+295 silly resolved     eslintConfig: { extends: 'eslint-config-postcss/es5' },
+295 silly resolved     main: 'lib/autoprefixer',
+295 silly resolved     readme: '# Autoprefixer [![Build Status][ci-img]][ci]\n\n<img align="right" width="94" height="71"\n     src="http://postcss.github.io/autoprefixer/logo.svg"\n     title="Autoprefixer logo by Anton Lovchikov">\n\n[PostCSS] plugin to parse CSS and add vendor prefixes to CSS rules using values\nfrom [Can I Use]. It is [recommended] by Google and used in Twitter,\nand Taobao.\n\nWrite your CSS rules without vendor prefixes (in fact, forget about them\nentirely):\n\n```css\n:fullscreen a {\n    display: flex\n}\n```\n\nAutoprefixer will use the data based on current browser popularity and property\nsupport to apply prefixes for you. You can try the [interactive demo]\nof Autoprefixer.\n\n```css\n:-webkit-full-screen a {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: flex\n}\n:-moz-full-screen a {\n    display: flex\n}\n:-ms-fullscreen a {\n    display: -ms-flexbox;\n    display: flex\n}\n:fullscreen a {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex\n}\n```\n\nTwitter account for news and releases: [@autoprefixer].\n\n<a href="https://evilmartians.com/?utm_source=autoprefixer">\n<img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg" alt="Sponsored by Evil Martians" width="236" height="54">\n</a>\n\n[interactive demo]: http://autoprefixer.github.io/\n[@autoprefixer]:    https://twitter.com/autoprefixer\n[recommended]:      https://developers.google.com/web/tools/setup/setup-buildtools#dont-trip-up-with-vendor-prefixes\n[Can I Use]:        http://caniuse.com/\n[PostCSS]:          https://github.com/postcss/postcss\n[ci-img]:           https://travis-ci.org/postcss/autoprefixer.svg\n[ci]:               https://travis-ci.org/postcss/autoprefixer\n\n## Features\n\n### Write Pure CSS\n\nWorking with Autoprefixer is simple: just forget about vendor prefixes\nand write normal CSS according to the latest W3C specs. You don’t need\na special language (like Sass) or remember where you must use mixins.\n\nAutoprefixer supports selectors (like `:fullscreen` and `::selection`),\nunit function (`calc()`), at‑rules (`@supports` and `@keyframes`)\nand properties.\n\nBecause Autoprefixer is a postprocessor for CSS,\nyou can also use it with preprocessors such as Sass, Stylus or LESS.\n\n### Flexbox, Filters, etc.\n\nJust write normal CSS according to the latest W3C specs and Autoprefixer\nwill produce the code for old browsers.\n\n```css\na {\n    display: flex;\n}\n```\n\ncompiles to:\n\n```css\na {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex\n}\n```\n\nAutoprefixer has [27 special hacks] to fix web browser differences.\n\n[27 special hacks]: https://github.com/postcss/autoprefixer/tree/master/lib/hacks\n\n### Only Actual Prefixes\n\nAutoprefixer utilizes the most recent data from [Can I Use]\nto add only necessary vendor prefixes.\n\nIt also removes old, unnecessary prefixes from your CSS\n(like `border-radius` prefixes, produced by many CSS libraries).\n\n```css\na {\n    -webkit-border-radius: 5px;\n            border-radius: 5px;\n}\n```\n\ncompiles to:\n\n```css\na {\n    border-radius: 5px;\n}\n```\n\n[Can I Use]: http://caniuse.com/\n\n## Browsers\n\nAutoprefixer uses [Browserslist], so you can specify the browsers\nyou want to target in your project by queries like `last 2 versions`\nor `> 5%`.\n\nIf you don’t provide the browsers option, Browserslist will try\nto find the `browserslist` config in parent dirs.\n\nSee [Browserslist docs] for queries, browser names, config format,\nand default value.\n\n[Browserslist]:      https://github.com/ai/browserslist\n[Browserslist docs]: https://github.com/ai/browserslist#queries\n\n## Outdated Prefixes\n\nBy default, Autoprefixer also removes outdated prefixes.\n\nYou can disable this behavior with the `remove: false` option. If you have\nno legacy code, this option will make Autoprefixer about 10% faster.\n\nAlso, you can set the `add: false` option. Autoprefixer will only clean outdated\nprefixes, but will not add any new prefixes.\n\nAutoprefixer adds new prefixes between any unprefixed properties and already\nwritten prefixes in your CSS. If it will break the expected prefixes order,\nyou can clean all prefixes from your CSS and then\nadd the necessary prefixes again:\n\n```js\nvar cleaner  = postcss([ autoprefixer({ add: false, browsers: [] }) ]);\nvar prefixer = postcss([ autoprefixer ]);\n\ncleaner.process(css).then(function (cleaned) {\n    return prefixer.process(cleaned.css)\n}).then(function (result) {\n    console.log(result.css);\n});\n```\n\n## FAQ\n\n#### Does it add polyfills?\n\nNo. Autoprefixer only adds prefixes.\n\nMost new CSS features will require client side JavaScript to handle a new\nbehavior correctly.\n\nDepending on what you consider to be a “polyfill”, you can take a look at some\nother tools and libraries. If you are just looking for syntax sugar,\nyou might take a look at:\n\n- [Oldie], a PostCSS plugin that handles some IE hacks (opacity, rgba, etc).\n- [cssnext], a tool that allows you to write standard CSS syntax non-implemented\n  yet in browsers (custom properties, custom media, color functions, etc).\n\n[cssnext]: https://github.com/MoOx/postcss-cssnext\n[Oldie]:   https://github.com/jonathantneal/oldie\n\n#### Why doesn’t Autoprefixer add prefixes to `border-radius`?\n\nDevelopers are often surprised by how few prefixes are required today.\nIf Autoprefixer doesn’t add prefixes to your CSS, check if they’re still\nrequired on [Can I Use].\n\nThere is a [list with all supported] properties, values, and selectors.\n\n[list with all supported]: https://github.com/postcss/autoprefixer/wiki/support-list\n[Can I Use]:               http://caniuse.com/\n\n#### Why Autoprefixer uses unprefixed properties in `@-webkit-keyframes`?\n\nBrowser teams can remove some prefixes before others. So we try to use\nall combinations of prefixed/unprefixed values.\n\n#### How to work with legacy `-webkit-` only code?\n\nAutoprefixer needs unprefixed property to add prefixes. So if you only\nwrote `-webkit-gradient` without W3C’s `gradient`,\nAutoprefixer will not add other prefixes.\n\nBut [PostCSS] has a plugins to convert CSS to unprefixed state.\nUse them before Autoprefixer:\n\n* [postcss-unprefix]\n* [postcss-flexboxfixer]\n* [postcss-gradientfixer]\n\n[postcss-gradientfixer]: https://github.com/hallvors/postcss-gradientfixer\n[postcss-flexboxfixer]:  https://github.com/hallvors/postcss-flexboxfixer\n[postcss-unprefix]:      https://github.com/yisibl/postcss-unprefix\n\n#### Does Autoprefixer add `-epub-` prefix?\n\nNo, Autoprefixer works only with browsers prefixes from Can I Use.\nBut you can use [postcss-epub](https://github.com/Rycochet/postcss-epub)\nfor prefixing ePub3 properties.\n\n## Usage\n\n### Gulp\n\nIn Gulp you can use [gulp-postcss] with `autoprefixer` npm package.\n\n```js\ngulp.task(\'autoprefixer\', function () {\n    var postcss      = require(\'gulp-postcss\');\n    var sourcemaps   = require(\'gulp-sourcemaps\');\n    var autoprefixer = require(\'autoprefixer\');\n\n    return gulp.src(\'./src/*.css\')\n        .pipe(sourcemaps.init())\n        .pipe(postcss([ autoprefixer({ browsers: [\'last 2 versions\'] }) ]))\n        .pipe(sourcemaps.write(\'.\'))\n        .pipe(gulp.dest(\'./dest\'));\n});\n```\n\nWith `gulp-postcss` you also can combine Autoprefixer\nwith [other PostCSS plugins].\n\n[other PostCSS plugins]: https://github.com/postcss/postcss#plugins\n[gulp-postcss]:          https://github.com/postcss/gulp-postcss\n\n### Webpack\n\nIn [webpack] you can use [postcss-loader] with `autoprefixer`\nand [other PostCSS plugins].\n\n```js\nvar autoprefixer = require(\'autoprefixer\');\n\nmodule.exports = {\n    module: {\n        loaders: [\n            {\n                test:   /\\.css$/,\n                loader: "style-loader!css-loader!postcss-loader"\n            }\n        ]\n    },\n    postcss: [ autoprefixer({ browsers: [\'last 2 versions\'] }) ]\n}\n```\n\n[other PostCSS plugins]: https://github.com/postcss/postcss#plugins\n[postcss-loader]:        https://github.com/postcss/postcss-loader\n[webpack]:               http://webpack.github.io/\n\n### Grunt\n\nIn Grunt you can use [grunt-postcss] with `autoprefixer` npm package.\n\n```js\nmodule.exports = function(grunt) {\n    grunt.loadNpmTasks(\'grunt-postcss\');\n\n    grunt.initConfig({\n        postcss: {\n            options: {\n                map: true,\n                processors: [\n                    require(\'autoprefixer\')({\n                        browsers: [\'last 2 versions\']\n                    })\n                ]\n            },\n            dist: {\n                src: \'css/*.css\'\n            }\n        }\n    });\n\n    grunt.registerTask(\'default\', [\'postcss:dist\']);\n};\n```\n\nWith `grunt-postcss` you also can combine Autoprefixer\nwith [other PostCSS plugins].\n\n[other PostCSS plugins]: https://github.com/postcss/postcss#plugins\n[grunt-postcss]:         https://github.com/nDmitry/grunt-postcss\n\n### Other Build Tools:\n\n* **Ruby on Rails**: [autoprefixer-rails]\n* **Brunch**: [postcss-brunch]\n* **Broccoli**: [broccoli-postcss]\n* **Middleman**: [middleman-autoprefixer]\n* **Mincer**: add `autoprefixer` npm package and enable it:\n  `environment.enable(\'autoprefixer\')`\n* **Jekyll**: add `autoprefixer-rails` and `jekyll-assets` to `Gemfile`\n\n[middleman-autoprefixer]: https://github.com/middleman/middleman-autoprefixer\n[autoprefixer-rails]:     https://github.com/ai/autoprefixer-rails\n[broccoli-postcss]:       https://github.com/jeffjewiss/broccoli-postcss\n[postcss-brunch]:         https://github.com/iamvdo/postcss-brunch\n\n### Preprocessors\n\n* **Less**: [less-plugin-autoprefix]\n* **Stylus**: [autoprefixer-stylus]\n* **Compass**: [autoprefixer-rails]\n\n [less-plugin-autoprefix]: https://github.com/less/less-plugin-autoprefix\n [autoprefixer-stylus]:    https://github.com/jenius/autoprefixer-stylus\n [autoprefixer-rails]:     https://github.com/ai/autoprefixer-rails#compass\n\n### CSS-in-JS\n\nThere is [postcss-js] to use Autoprefixer in React Inline Styles, [Free Style],\nRadium and other CSS-in-JS solutions.\n\n```js\nlet prefixer = postcssJs.sync([ autoprefixer ]);\nlet style = prefixer({\n    display: \'flex\'\n});\n```\n\n[postcss-js]: https://github.com/postcss/postcss-js\n[Free Style]: https://github.com/blakeembrey/free-style\n\n### GUI Tools\n\n* [CodeKit](https://incident57.com/codekit/help.html#autoprefixer)\n* [Prepros](https://prepros.io)\n\n### CLI\n\nYou can use the [postcss-cli] to run Autoprefixer from CLI:\n\n```sh\nnpm install --global postcss-cli autoprefixer\npostcss --use autoprefixer *.css -d build/\n```\n\nSee `postcss -h` for help.\n\n[postcss-cli]: https://github.com/code42day/postcss-cli\n\n### JavaScript\n\nYou can use Autoprefixer with [PostCSS] in your Node.js application\nor if you want to develop an Autoprefixer plugin for new environment.\n\n```js\nvar autoprefixer = require(\'autoprefixer\');\nvar postcss      = require(\'postcss\');\n\npostcss([ autoprefixer ]).process(css).then(function (result) {\n    result.warnings().forEach(function (warn) {\n        console.warn(warn.toString());\n    });\n    console.log(result.css);\n});\n```\n\nThere is also [standalone build] for the browser or as a non-Node.js runtime.\n\nYou can use [html-autoprefixer] to process HTML with inlined CSS.\n\n[html-autoprefixer]: https://github.com/RebelMail/html-autoprefixer\n[standalone build]:  https://raw.github.com/ai/autoprefixer-rails/master/vendor/autoprefixer.js\n[PostCSS]:           https://github.com/postcss/postcss\n\n### Text Editors and IDE\n\nAutoprefixer should be used in assets build tools. Text editor plugins are not\na good solution, because prefixes decrease code readability and you will need\nto change value in all prefixed properties.\n\nI recommend you to learn how to use build tools like [Gulp].\nThey work much better and will open you a whole new world of useful plugins\nand automatization.\n\nBut, if you can’t move to a build tool, you can use text editor plugins:\n\n* [Sublime Text](https://github.com/sindresorhus/sublime-autoprefixer)\n* [Brackets](https://github.com/mikaeljorhult/brackets-autoprefixer)\n* [Atom Editor](https://github.com/sindresorhus/atom-autoprefixer)\n* [Visual Studio](http://vswebessentials.com/)\n\n[Gulp]:  http://gulpjs.com/\n\n## Warnings\n\nAutoprefixer uses the [PostCSS warning API] to warn about really important problems\nin your CSS:\n\n* Old direction syntax in gradients.\n* Old unprefixed `display: box` instead of `display: flex`\n  by latest specification version.\n\nYou can get warnings from `result.warnings()`:\n\n```js\nresult.warnings().forEach(function (warn) {\n    console.warn(warn.toString());\n});\n```\n\nEvery Autoprefixer runner should display this warnings.\n\n[PostCSS warning API]: https://github.com/postcss/postcss/blob/master/docs/api.md#warning-class\n\n## Disabling\n\nAutoprefixer was designed to have no interface – it just works.\nIf you need some browser specific hack just write a prefixed property\nafter the unprefixed one.\n\n```css\na {\n    transform: scale(0.5);\n    -moz-transform: scale(0.6);\n}\n```\n\nIf some prefixes were generated in a wrong way,\nplease create an issue on GitHub.\n\nAutoprefixer has 4 features, which can be disabled by options:\n\n* `supports: false` will disable `@supports` parameters prefixing.\n* `flexbox: false` will disable flexbox properties prefixing.\n  Or `flexbox: "no-2009"` will add prefixes only for final and IE\n  versions of specification.\n* `grid: false` will disable Grid Layout prefixes for IE.\n* `remove: false` will disable cleaning outdated prefixes.\n\nIf you do not need Autoprefixer in some part of your CSS,\nyou can use control comments to disable Autoprefixer.\n\n```css\na {\n    transition: 1s; /* it will be prefixed */\n}\n\nb {\n    /* autoprefixer: off */\n    transition: 1s; /* it will not be prefixed */\n}\n```\n\nControl comments disable Autoprefixer within the whole rule in which\nyou place it. In the above example, Autoprefixer will be disabled\nin the entire `b` rule scope, not only after the comment.\n\nYou can also use comments recursively:\n\n```css\n/* autoprefixer: off */\n@supports (transition: all) {\n    /* autoprefixer: on */\n    a {\n        /* autoprefixer: off */\n    }\n}\n```\n\n## Options\n\nFunction `autoprefixer(options)` returns new PostCSS plugin.\nSee [PostCSS API] for plugin usage documentation.\n\n```js\nvar plugin = autoprefixer({ browsers: [\'> 1%\', \'IE 7\'], cascade: false });\n```\n\nThere are 4 options:\n\n* `browsers` (array): list of browsers, which are supported in your project.\n  You can directly specify browser version (like `IE 7`) or use selections\n  (like `last 2 version` or `> 5%`). See [Browserslist docs] for available\n  queries and default value.\n* `cascade` (boolean): should Autoprefixer use Visual Cascade,\n  if CSS is uncompressed. Default: `true`\n* `add` (boolean): should Autoprefixer add prefixes. Default is `true`.\n* `remove` (boolean): should Autoprefixer [remove outdated] prefixes.\n  Default is `true`.\n* `supports` (boolean): should Autoprefixer add prefixes for `@supports`\n  parameters. Default is `true`.\n* `flexbox` (boolean|string): should Autoprefixer add prefixes for flexbox\n  properties. With `"no-2009"` value Autoprefixer will add prefixes only\n  for final and IE versions of specification. Default is `true`.\n* `grid` (boolean): should Autoprefixer add IE prefixes for Grid Layout\n  properties. Default is `true`.\n* `stats` (object): custom [usage statistics] for `> 10% in my stats`\n  browsers query.\n\nPlugin object has `info()` method for debugging purpose.\n\nYou can use PostCSS processor to process several CSS files\nto increase performance.\n\n[usage statistics]: https://github.com/ai/browserslist#custom-usage-data\n[PostCSS API]:      https://github.com/postcss/postcss/blob/master/docs/api.md\n\n## Debug\n\nYou can check which browsers are selected and which properties will be prefixed:\n\n```js\nvar info = autoprefixer({ browsers: [\'last 1 version\'] }).info();\nconsole.log(info);\n```\n',
+295 silly resolved     readmeFilename: 'README.md',
+295 silly resolved     _id: 'autoprefixer@6.3.3',
+295 silly resolved     dist: { shasum: '38bcd301504e7b40a9feeb392709067787c521a5' },
+295 silly resolved     _from: 'autoprefixer@',
+295 silly resolved     _resolved: 'https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.3.3.tgz' } ]
+296 info install postcss-cli@2.5.1 into /usr/lib
+297 info install autoprefixer@6.3.3 into /usr/lib
+298 info installOne postcss-cli@2.5.1
+299 info installOne autoprefixer@6.3.3
+300 info /usr/lib/node_modules/postcss-cli unbuild
+301 info /usr/lib/node_modules/autoprefixer unbuild
+302 verbose tar unpack /home/user1/.npm/postcss-cli/2.5.1/package.tgz
+303 silly lockFile a9a84a56-usr-lib-node-modules-postcss-cli tar:///usr/lib/node_modules/postcss-cli
+304 verbose lock tar:///usr/lib/node_modules/postcss-cli /home/user1/.npm/a9a84a56-usr-lib-node-modules-postcss-cli.lock
+305 silly lockFile e66d1c01-pm-postcss-cli-2-5-1-package-tgz tar:///home/user1/.npm/postcss-cli/2.5.1/package.tgz
+306 verbose lock tar:///home/user1/.npm/postcss-cli/2.5.1/package.tgz /home/user1/.npm/e66d1c01-pm-postcss-cli-2-5-1-package-tgz.lock
+307 verbose tar unpack /home/user1/.npm/autoprefixer/6.3.3/package.tgz
+308 silly lockFile 00927efb-sr-lib-node-modules-autoprefixer tar:///usr/lib/node_modules/autoprefixer
+309 verbose lock tar:///usr/lib/node_modules/autoprefixer /home/user1/.npm/00927efb-sr-lib-node-modules-autoprefixer.lock
+310 silly lockFile f63c859b-m-autoprefixer-6-3-3-package-tgz tar:///home/user1/.npm/autoprefixer/6.3.3/package.tgz
+311 verbose lock tar:///home/user1/.npm/autoprefixer/6.3.3/package.tgz /home/user1/.npm/f63c859b-m-autoprefixer-6-3-3-package-tgz.lock
+312 silly gunzTarPerm modes [ '755', '644' ]
+313 silly gunzTarPerm modes [ '755', '644' ]
+314 error Error: EACCES, mkdir '/usr/lib/node_modules/postcss-cli'
+314 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/postcss-cli']
+314 error   errno: 3,
+314 error   code: 'EACCES',
+314 error   path: '/usr/lib/node_modules/postcss-cli',
+314 error   fstream_type: 'Directory',
+314 error   fstream_path: '/usr/lib/node_modules/postcss-cli',
+314 error   fstream_class: 'DirWriter',
+314 error   fstream_stack:
+314 error    [ '/usr/lib/node_modules/fstream/lib/dir-writer.js:36:23',
+314 error      '/usr/lib/node_modules/mkdirp/index.js:37:53',
+314 error      'Object.oncomplete (fs.js:108:15)' ] }
+315 error Please try running this command again as root/Administrator.
+316 error System Linux 3.19.8-100.fc20.x86_64
+317 error command "node" "/usr/bin/npm" "install" "postcss-cli" "autoprefixer" "-g"
+318 error cwd /home/user1/Documents/Project_2
+319 error node -v v0.10.36
+320 error npm -v 1.3.6
+321 error path /usr/lib/node_modules/postcss-cli
+322 error fstream_path /usr/lib/node_modules/postcss-cli
+323 error fstream_type Directory
+324 error fstream_class DirWriter
+325 error code EACCES
+326 error errno 3
+327 error stack Error: EACCES, mkdir '/usr/lib/node_modules/postcss-cli'
+328 error fstream_stack /usr/lib/node_modules/fstream/lib/dir-writer.js:36:23
+328 error fstream_stack /usr/lib/node_modules/mkdirp/index.js:37:53
+328 error fstream_stack Object.oncomplete (fs.js:108:15)
+329 verbose exit [ 3, true ]

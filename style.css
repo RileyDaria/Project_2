@@ -47,7 +47,7 @@ b2b8cd light purple
  flex-direction: row ltr;
  flex-wrap: wrap;
  justify-content: space-between;
- align-items: center;
+ align-items:center;
  padding: 4em;
 }
 /* Medim screen*/
@@ -68,10 +68,11 @@ b2b8cd light purple
 		visibility: hidden;
 	}
 	.header{
-		align-items: center;
+		
 	}
 
 }
+
 .images img{
 	border-radius: 50%;
 	width:30%;
@@ -125,10 +126,8 @@ body {
 	max-width: 26em;
 	text-align: center;
 	margin: 5em auto 5em 2em;
-	
 	padding-bottom: 1em;
 	border-radius: 0.5em;
-
 	opacity: 0.9;
     filter: alpha(opacity=90);
 }
