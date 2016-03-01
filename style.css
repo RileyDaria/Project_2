@@ -22,7 +22,9 @@ b2b8cd light purple
 	text-transform: uppercase;
 	}
 	.header{
-	float: center;
+	display: flex;
+	flex-direction: row;
+	 align-items: center;
 	margin: 1em 2em;
 	background-color: #e6cbb2;
 	opacity: 0.7;
@@ -30,17 +32,45 @@ b2b8cd light purple
 	border-radius: 0.5em;
 	
 }
+.header img{
+	width:25%;
+
+}
 .text{
 	width:68%;
 	text-align: center;
 	font-size: 2em;
 }
+/*Big sceen*/
 .images{
  display:flex;
  flex-direction: row ltr;
  flex-wrap: wrap;
  justify-content: space-between;
- align-items: flex-baseline;
+ align-items: center;
+ padding: 4em;
+}
+/* Medim screen*/
+@media all and (max-width:800px){
+	
+	
+}
+/*Small screen */
+@media all and (max-width: 500px){
+	.images{
+		flex-direction: column;
+		align-content: center;
+	}
+	.images .item{
+		order: 1 2 4 3 5 6 8 7 9  10 12 11;
+	}
+	.header img{
+		visibility: hidden;
+	}
+	.header{
+		align-items: center;
+	}
+
 }
 .images img{
 	border-radius: 50%;
@@ -55,7 +85,7 @@ b2b8cd light purple
 	background-size: 70% 100%;
 	background-position: right;
 	display: inline-block;*/
-	width:100%;
+	
 	background-color: #b2b8cd;
 }
 #container2{
@@ -70,9 +100,10 @@ b2b8cd light purple
 #container5{
 	background-color: #b9d9c0;
 }
+/*
 #container6{
 	background-color: #88bd94;
-}
+}*/
 p{
 	font-family: 'Raleway', sans-serif;
 	font-size: 10;
@@ -109,7 +140,7 @@ label{
 	text-transform: uppercase;
 
 }
-input,#button_subscribe{
+input,#button_submit, textarea{
 	align: left;
 	width: 25em;
 	font-size: 1em;
@@ -118,7 +149,7 @@ input,#button_subscribe{
 	
 	
 }
-#button_subscribe{
+#button_submit{
 	background-color: #505050;
 	color:white;
 	padding: 1em 0;
