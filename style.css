@@ -41,6 +41,12 @@ b2b8cd light purple
 	text-align: center;
 	font-size: 2em;
 }
+.video{
+	
+}
+.video figcaption{
+	margin: 0 auto;
+}
 /*Big sceen*/
 .images{
  display:flex;
@@ -78,14 +84,8 @@ b2b8cd light purple
 	height:30%;
 	
 }
-#container1{
-	/*background-image: url('images/bubble_right.png');
-	height:100%;
-	background-repeat: no-repeat;
-	background-size: 70% 100%;
-	background-position: right;
-	display: inline-block;*/
-	
+#light_purple{
+
 	background-color: #b2b8cd;
 }
 #container2{
