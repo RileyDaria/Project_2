@@ -91,22 +91,23 @@ b2b8cd light purple
 	margin: 0 auto;
 	 display: block;
 	 max-width: 100%;
-	
+	box-shadow: 0.2em 0.2em 0.1em #222;
 }
 .light_purple{
 
 	background-color: #b2b8cd;
 }
+
 .dark_green{
 	background-color: #88bd94;
 }
-#container3{
+.brown{
 	background-color: #8fad684;
 }
-#container4{
+.darker_purple{
 	background-color: #7f89a9;
 }
-#container5{
+.light_green{
 	background-color: #b9d9c0;
 }
 
