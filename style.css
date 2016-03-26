@@ -15,30 +15,35 @@ b2b8cd light purple
 .header #main_heading{
 	font-family: 'Nunito', sans-serif;
 	font-weight: 700; 
-	text-align: right;
+	text-align: center;
 	padding-right: 0.5em;
-	font-size: 3em;
-	margin: 0 0 ;
+	font-size: 4em;
+	margin:0;
 	text-transform: uppercase;
 	}
 	.header{
 	display: flex;
 	flex-direction: row;
-	 align-items: center;
-	margin: 1em 2em;
+	align-items: center;
+	margin: 1em  0;
 	background-color: #e6cbb2;
-	opacity: 0.7;
-    filter: alpha(opacity=70);
-	border-radius: 0.5em;
+
 	
 }
 .header img{
 	width:25%;
 
 }
+.headers{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	text-align: center;	
+	
+}
+
 .text{
-	width:68%;
 	text-align: center;
+<<<<<<< HEAD
 	font-size: 2em;
 }
 /*Big sceen*/
@@ -54,11 +59,16 @@ b2b8cd light purple
 @media all and (max-width:800px){
 	
 	
+=======
+	font-size: 3em;
+	font-family: 'Raleway', sans-serif;
+>>>>>>> master
 }
 /*Small screen */
-@media all and (max-width: 500px){
-	.images{
+.images{
+		display:flex;
 		flex-direction: column;
+<<<<<<< HEAD
 		align-content: center;
 	}
 	.images .item{
@@ -69,79 +79,148 @@ b2b8cd light purple
 	}
 	.header{
 		
+=======
+		align-items: center;
+		justify-content: space-between;
+		padding: 4em;
+		margin:0 auto;
+>>>>>>> master
 	}
-
+.header img{
+		display: none;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> master
 .images img{
 	border-radius: 50%;
-	width:30%;
-	height:30%;
+	margin: 0 auto;
+	max-width: 100%;
+	box-shadow: 0.2em 0.2em 0.1em #222;
+}
+.video{
+	margin:0 auto;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2em;
+}
+.video video{
+	
+	max-width: 100%;
+	display: block;
+	border-radius: 0.5em;
+	 
+}
+.video figcaption{
+	margin: 0 auto;
+	padding: 0.5em;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+/*Big sceen*/
+@media all and (min-width:600px){
+	.images{
+	display:flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 justify-content: space-between;
+	 align-items: center;
+	 padding: 4em;
+	 
+	}
+	.images img{
+		width: 30%;
+		border-radius: 50%;
+		box-shadow: 0.2em 0.2em 0.1em #222;
+	}
+	.text{
+		width:68%;
+	}
+	.video{
+		display: inline-block;
+		max-width: 49%;
+		margin:0;
+		padding: 0.3%;		
+	}
+	.video video{
+		max-width: 100%;
+		
+	}
+	.video figure{
+		max-width:50%;
+	}
+	.video figcaption{
+		margin: 0 ;
+		padding: 0.5em;
+		text-align: center;
+		font-family: 'Raleway', sans-serif;
+	}
+	.header img{
+	display: inline;
+	}
+	#sign_up_form{
 	
 }
-#container1{
-	/*background-image: url('images/bubble_right.png');
-	height:100%;
-	background-repeat: no-repeat;
-	background-size: 70% 100%;
-	background-position: right;
-	display: inline-block;*/
-	
+
+}
+
+/* Colored Backgrounds */
+.light_purple{
+
 	background-color: #b2b8cd;
 }
-#container2{
+
+.dark_green{
 	background-color: #88bd94;
 }
-#container3{
-	background-color: #8fad684;
+.cream{
+	background-color: #ffebd9;
 }
-#container4{
+.darker_purple{
 	background-color: #7f89a9;
 }
-#container5{
+.light_green{
 	background-color: #b9d9c0;
 }
-/*
-#container6{
-	background-color: #88bd94;
-}*/
-p{
-	font-family: 'Raleway', sans-serif;
-	font-size: 10;
-	
-}
- img #container1{
-	position: right;
-}
+
+
 body {
 	background-color: #d3a579;
 	margin: 0 0 15% 0;
-	background-repeat: no-repeat;
-	background-repeat: no-repeat ;
-	background-size:cover;	
 }
 #sign_up_form{
 	font-family: 'Raleway', sans-serif;
 	background-color: #e6cbb2;
-	max-width: 26em;
 	text-align: center;
+<<<<<<< HEAD
 	margin: 5em auto 5em 2em;
 	padding-bottom: 1em;
 	border-radius: 0.5em;
 	opacity: 0.9;
     filter: alpha(opacity=90);
+=======
+	max-width:50%;
+	padding-bottom: 1em;
+	border-radius: 0.5em;
+	border-radius: 0.5em;
+	margin:0 auto;
+	
+>>>>>>> master
 }
 label{
 	display: block;
 	padding: 0.5em;
-	text-align: left;
-	max-width: 20em;
 	text-transform: uppercase;
-
+	text-align:left;
 }
 input,#button_submit, textarea{
-	align: left;
-	width: 25em;
+	
+	width: 49%;
 	font-size: 1em;
 	border-radius: 0.5em;
 	border: 0.05em  solid grey;
@@ -154,17 +233,14 @@ input,#button_submit, textarea{
 	padding: 1em 0;
 	margin-left: 0.5em;
 	cursor: pointer;
+	margin:1em auto;
 }
 #header_signup{
 	font-family: 'Raleway', sans-serif;
 	font-weight:600;
-	text-align:left;
+	text-align:center;
 	border-bottom: 1px solid grey;
 	text-transform: uppercase;
 	color: grey;
 	padding: 0.5em;
-}
-input,input::-webkit-input-placeholder {
-
-	line-height: 2;
 }
