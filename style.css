@@ -38,14 +38,35 @@ b2b8cd light purple
 	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
 	text-align: center;	
-	float: center;
+	
 }
 
 .text{
 	text-align: center;
 	font-size: 3em;
 	font-family: 'Raleway', sans-serif;
-}/*
+}
+/*Small screen */
+.images{
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		padding: 4em;
+		margin:0 auto;
+	}
+.header img{
+		display: none;
+}
+
+
+
+.images img{
+	border-radius: 50%;
+	margin: 0 auto;
+	max-width: 100%;
+	box-shadow: 0.2em 0.2em 0.1em #222;
+}
 .video{
 	margin:0 auto;
 	display:flex;
@@ -66,12 +87,12 @@ b2b8cd light purple
 	padding: 0.5em;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-}*/
+}
 /*Big sceen*/
 @media all and (min-width:600px){
 	.images{
 	display:flex;
-	 flex-direction: row ltr;
+	 flex-direction: row;
 	 flex-wrap: wrap;
 	 justify-content: space-between;
 	 align-items: center;
@@ -88,9 +109,6 @@ b2b8cd light purple
 	}
 	.video{
 		display: inline-block;
-		flex-direction: row ltr;
-		flex-wrap: wrap;
-		align-items: center;
 		max-width: 49%;
 		margin:0;
 		padding: 0.3%;		
@@ -104,41 +122,20 @@ b2b8cd light purple
 	}
 	.video figcaption{
 		margin: 0 ;
-		padding: 
+		padding: 0.5em;
 		text-align: center;
 		font-family: 'Raleway', sans-serif;
 	}
 	.header img{
 	display: inline;
 	}
-
-}
-/* Medim screen*/
-@media all and (max-width:800px){
-	
+	#sign_up_form{
 	
 }
-/*Small screen 
-.images{
-		display:flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-between;
-		padding: 4em;
-		margin:0 auto;
-	}
-.header img{
-		display: none;
+
 }
 
-
-
-.images img{
-	border-radius: 50%;
-	margin: 0 auto;
-	max-width: 100%;
-	box-shadow: 0.2em 0.2em 0.1em #222;
-}*/
+/* Colored Backgrounds */
 .light_purple{
 
 	background-color: #b2b8cd;
@@ -147,8 +144,8 @@ b2b8cd light purple
 .dark_green{
 	background-color: #88bd94;
 }
-.brown{
-	background-color: #8fad684;
+.cream{
+	background-color: #ffebd9;
 }
 .darker_purple{
 	background-color: #7f89a9;
@@ -165,27 +162,23 @@ body {
 #sign_up_form{
 	font-family: 'Raleway', sans-serif;
 	background-color: #e6cbb2;
-	max-width: 26em;
 	text-align: center;
-	margin: 5em auto 5em 2em;
-	
+	max-width:50%;
 	padding-bottom: 1em;
 	border-radius: 0.5em;
-
-	opacity: 0.9;
-    filter: alpha(opacity=90);
+	border-radius: 0.5em;
+	margin:0 auto;
+	
 }
 label{
 	display: block;
 	padding: 0.5em;
-	text-align: left;
-	max-width: 20em;
 	text-transform: uppercase;
-
+	text-align:left;
 }
 input,#button_submit, textarea{
-	align: left;
-	width: 25em;
+	
+	width: 49%;
 	font-size: 1em;
 	border-radius: 0.5em;
 	border: 0.05em  solid grey;
@@ -198,17 +191,14 @@ input,#button_submit, textarea{
 	padding: 1em 0;
 	margin-left: 0.5em;
 	cursor: pointer;
+	margin:1em auto;
 }
 #header_signup{
 	font-family: 'Raleway', sans-serif;
 	font-weight:600;
-	text-align:left;
+	text-align:center;
 	border-bottom: 1px solid grey;
 	text-transform: uppercase;
 	color: grey;
 	padding: 0.5em;
-}
-input,input::-webkit-input-placeholder {
-
-	line-height: 2;
 }
